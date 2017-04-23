@@ -1,0 +1,93 @@
+//META{"name":"Sevendollarbill","description":"Sevens personal theme he uses for discord!</br> <br><br><br>Based on <a href='https://github.com/0mniscient/Discord-Themes/tree/master/Themes' target='_blank'>Discord Reborn</a> by <a href='https://github.com/0mniscient' target='_blank'>@Omniscient</a>, <a href='https://github.com/cosmicsalad/Discord-Themes-and-Plugins/tree/master/themes/DarkMatter' target='_blank'>DarkMatter</a> by <a href='https://github.com/cosmicsalad' target='_blank'>@Hammock</a> & <a href='https://github.com/Zerthox/ClearVision/blob/master/themes/ClearVision_Amethyst.theme.css' target='_blank'>ClearVison</a> by <a href='https://github.com/Zerthox' target='_blank'>@Zerthox</a> <span style='position: absolute; bottom: 0; left: 0;'></br></br></br> <span style='position: absolute; bottom: 0; right: 14px;'> By <b><a href='https://github.com/Gryphon591' target='_blank'>@Gryphon591</a></b></span>","author":"<a href='https://github.com/Gryphon591' target='_blank'>@Gryphon591</a>","version":"1.0"}*//{}
+/* "Sevendollarbill v1.0" by @Gryphon591 */
+/* Based on "Discord Reborn v4.30" by @Omniscient & "DarkMatter" by @Hammock & "ClearVision v5.1.1" by @Zerthox */
+
+/* IMPORT CSS FROM GITHUB */
+@import url(https://cdn.rawgit.com/Gryphon591/Main/09f69f4f/Main.css);
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+IMPORTANT: CHANGE BETWEEN DARK AND LIGHT VERSION IN APPEARANCE SETTINGS!
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+============== CUSTOMIZABLE COLORS ===============
+*/
+:root {
+	--main-color: #bf7815;
+    --hover-color: #616770;
+    --background-blur: 0px;
+    --background-brightness: 100%;
+}
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+========= CUSTOMIZABLE BACKGROUND IMAGE ==========
+*/
+body::after,
+.callout-backdrop,
+.user-popout::before,
+#user-profile-modal .header::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label{
+    background-image: url(https://cdn.discordapp.com/attachments/176862928081911808/270250911698255873/NewLogoIdea.png) !important; /* IMPORTANT: Link must be HTTPS! */
+}
+.radio-theme.dark label{
+    background-image: url(https://cdn.discordapp.com/attachments/176862928081911808/270250911698255873/NewLogoIdea.png) !important; /* IMPORTANT: Link must be HTTPS! */
+}
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.theme-light .chat .content .channel-members-wrap .channel-members h2 {
+    width: 104px !important;
+    text-align: left !important;
+}
+
+.theme-dark .chat .content .channel-members-wrap .channel-members h2 {
+    width: 104px !important;
+    text-align: left !important;
+}
+
+.guild-channels header {
+	color: #e59524 !important;
+}
+
+.guild-header span {
+   color:#bf7815 !important;
+}
+
+.tab-bar-item {
+   color:#bf7815 !important;
+}
+
+.change-log-button-container .change-log-button {
+   color:#bf7815 !important;
+}
+
+.account .account-details .username {
+   color:#bf7815 !important;
+}
+
+.guild-channels .channel .channel-name {
+   color:#25e3ed!important;
+}
+
+.chat > .content .messages .message-group .markup {
+   color:#FFFFFF !important;
+}
+
+.guild-channels .channel-voice-states li span {
+   color:#FFFFFF;
+}
+
+.account::after {
+   content:"Sevendollarbill v1.Potato";
+}
+
+
